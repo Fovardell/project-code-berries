@@ -15,9 +15,9 @@
 		href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
 	
   <script type="module" crossorigin src="/project-code-berries/assets/index-1fa78e0f.js"></script>
-  <link rel="stylesheet" href="/project-code-berries/assets/index-9b02cbf5.css">
+  <link rel="stylesheet" href="/project-code-berries/assets/index-c9f7c7f2.css">
 </head>
- 
+
 <body>
 	<header class="header">
 	<div class="container">
@@ -150,53 +150,11 @@
 		</ul> -->
 	</div>
 </section>
-	<!-- <section class="how-it-works-section section">
-	<div class="how-it-works-container container">
-		<div class="order-fruit-container">
-			<h2 class="order-fruit-title">
-				To order your fruit basket, simply follow these easy steps
-			</h2>
-			<p class="order-fruit-text">
-				Our baskets are assembled with care and delivered straight to your
-				doorstep, so you can enjoy the taste of fresh fruit without ever leaving
-				your home. Whether you're looking for a healthy snack or a thoughtful
-				gift, our fruit baskets are the perfect choice.
-			</p>
-		</div>
-		<div class="steps-order-container">
-			<ul class="steps-order-list list">
-				<li class="steps-order-item">
-					<div class="steps-order-color">
-						<p class="first-step steps">First Step</p>
-						<p class="step-text">
-							Just choose the fruit you want to order by clicking on the
-							checkboxes next to it.
-						</p>
-					</div>
-				</li>
-				<li class="steps-order-item">
-					<div class="steps-order-color">
-						<p class="second-step steps">Second Step</p>
-						<p class="step-text">Click on the basket and flil out the form.</p>
-					</div>
-				</li>
-				<li class="steps-order-item">
-					<div class="steps-order-color">
-						<p class="third-step steps">Third Step</p>
-						<p class="step-text">
-							Sit back and relax! Your fresh fruit basket wlil be delivered.
-						</p>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-</section> -->
-	<!-- <section class="fruits">
+	<section class="fruits">
 	<div class="container">
 	
 	</div>
-</section> -->
+</section>
 	<section class="contacts sections">
     <div class="contacts-container container">
         <h2 class="contacts-title">Fresh Harvest Box has got you covered</h2>
@@ -250,7 +208,7 @@
         </div>
     </div>
   </section>
-	<!-- <footer class="footer">
+	<footer class="footer">
 	<div class="container">
 	
 	</div>
@@ -267,7 +225,7 @@
 			</svg>
 		</button>
 		<div class="mw-thank-you-content">
-			<img class="mw-thank-you-img" src="./img/mw-thank-you/raspberry@1x.jpg"
+			<img class="mw-thank-you-img" src="/project-code-berries/assets/raspberry@1x-3192678c.jpg"
 				alt="Raspberries" width="278" height="239">
 			<div class="mw-thank-you-message">
 				<h3 class="mw-thank-you-ttl">THANK YOU</h3>
@@ -283,8 +241,104 @@
 	</div>
 </div>
 	<div class="mw-your-order">
-	
-</div> -->
+  <div class="heder">
+    <h1 class="title">Your Order</h1>
+    <button class="modal-close-btn" type="button">
+      <svg class="modal-icon" width="24" height="24">
+        <use href="../img/icon.svg#close"></use>
+      </svg>
+    </button>
+  </div>
+  <ul class="cards">
+    <li class="first-card-list list">
+      <label class="lable-card" for="Strawberry_card"></label>
+      <input
+        class="list-card strawberry-card"
+        type="checkbox"
+        name="Strawberry_card"
+        id="Strawberry_card"
+      />
+      <div class="first-card">
+        <h2 class="card-title">Strawberry Basket</h2>
+        <p class="card-text">Plant</p>
+        <img
+          class="image-card"
+          src="../img/Img-mw-your-order/strawberry.png"
+          alt="strawberry"
+          width="88"
+        />
+      </div>
+    </li>
+    <li class="second-card-list list">
+      <label class="lable-card" for="Apple_card"></label>
+      <input
+        class="list-card apple-card"
+        type="checkbox"
+        name="Apple_card"
+        id="Apple_card"
+      />
+      <div class="second-card">
+        <h2 class="card-title">Apple Basket</h2>
+        <p class="card-text">Plant</p>
+        <img
+          class="image-card"
+          src="../img/Img-mw-your-order/apple.png"
+          alt="apple"
+          width="106"
+        />
+      </div>
+    </li>
+    <li class="third-card-list list">
+      <label class="lable-card" for="Fruits_cadr"></label>
+      <input
+        class="list-card fruits-card"
+        type="checkbox"
+        name="Fruits_cadr"
+        id="Fruits_cadr"
+      />
+      <div class="third-card">
+        <h2 class="card-title">Fruits Basket</h2>
+        <p class="card-text">Plant</p>
+        <img
+          class="image-card"
+          src="../img/Img-mw-your-order/fruits.png"
+          alt="fruits"
+          width="107"
+        />
+      </div>
+    </li>
+  </ul>
+  <form class="modal-form" name="modal_form" autocomplete="off">
+    <input
+      class="modal-form-input"
+      type="name"
+      name="user_name"
+      placeholder="Enter full name..."
+    />
+    <input
+      class="modal-form-input"
+      type="email"
+      name="user_email"
+      placeholder="Enter email..."
+    />
+    <input
+      class="modal-form-input"
+      type="card"
+      name="user_card"
+      placeholder="Enter card.."
+    />
+    <input
+      class="modal-form-input last-input"
+      type="comments"
+      name="user-comments"
+      placeholder="Enter comments..."
+    />
+    <button class="form-btn" type="submit">Submit</button>
+  </form>
+</div>
+
+<textarea name="" id="" cols="30" rows="10"></textarea>
+
 	
 </body>
 
