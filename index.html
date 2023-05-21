@@ -15,7 +15,7 @@
 		href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
 	
   <script type="module" crossorigin src="/project-code-berries/assets/index-93248a49.js"></script>
-  <link rel="stylesheet" href="/project-code-berries/assets/index-deeae1a2.css">
+  <link rel="stylesheet" href="/project-code-berries/assets/index-2d04b674.css">
 </head>
 
 <body>
@@ -389,30 +389,35 @@
       type="name"
       name="user_name"
       placeholder="Enter full name..."
+      required
+      minlength="5"
     />
     <input
       class="modal-form-input"
       type="email"
       name="user_email"
       placeholder="Enter email..."
+      required
     />
     <input
       class="modal-form-input"
       type="card"
       name="user_card"
       placeholder="Enter card.."
+      required
+      pattern="\d*"
+      maxlength="19"
     />
-    <input
-      class="modal-form-input last-input"
-      type="comments"
+    <textarea
+      class="modal-form-comments"
       name="user-comments"
+      id="user-comments"
+      rows="10"
       placeholder="Enter comments..."
-    />
+    ></textarea>
     <button class="form-btn" type="submit">Submit</button>
   </form>
 </div>
-
-<textarea name="" id="" cols="30" rows="10"></textarea>
 
 	
 </body>
