@@ -14,7 +14,7 @@
 		href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
 	
   <script type="module" crossorigin src="/project-code-berries/assets/index-ccbfb793.js"></script>
-  <link rel="stylesheet" href="/project-code-berries/assets/index-08475eee.css">
+  <link rel="stylesheet" href="/project-code-berries/assets/index-a65baa90.css">
 </head>
 
 <body>
@@ -394,7 +394,7 @@
       </li>
     </ul>
     <div class="button-fruit">
-      <button type="button" class="modal-but">
+      <button type="button" class="modal-but js-open-modal" data-modal="1">
         <svg class="arrow-svg" width="14" height="14">
           <use href="/project-code-berries/assets/icon-fd58deca.svg#arrow"></use>
         </svg>
@@ -462,7 +462,8 @@
 				<label class="contacts-field">
 					<input class="contacts-input" type="email" name="email"
 						placeholder="Enter email..." required>
-					<button class="contacts-btn" type="button">Send</button>
+					<button class="contacts-btn js-open-modal" data-modal="2"
+						type="button">Send</button>
 				</label>
 			</form>
 		</div>
@@ -562,52 +563,35 @@
     </div>
   </div>
 </footer>
-	<!-- 
-<button class="contacts_btn" type="button" data-modal-open>
-    Send
-</button>
+	<div class="mw-thank-you modal" data-modal="2">
+	<button class="mw-thank-you-btn js-modal-close" type="button">
+		<svg class="mw-thank-you-btn-icon" width="14" height="14">
+			<use href="/project-code-berries/assets/icon-fd58deca.svg#close"></use>
+		</svg>
+	</button>
+	<div class="mw-thank-you-content">
+		<img class="mw-thank-you-img " srcset="/project-code-berries/assets/raspberry_207-c02f28bd.webp 207w, /project-code-berries/assets/raspberry_278-4740c7c6.webp 207w, /project-code-berries/assets/raspberry_414-50c9468b.webp 207w, /project-code-berries/assets/raspberry_556-7ec00e09.webp 207w" sizes="(min-width: 1280px) 278px,  
+	                    (min-width: 599px) 207px, 100vw"
+			src="/project-code-berries/assets/raspberry_207-c02f28bd.webp" alt="Raspberries" width="278"
+			height="239">
+		<div class="mw-thank-you-message">
+			<h3 class="mw-thank-you-ttl">THANK YOU</h3>
+			<p class="mw-thank-you-text">
+				Thank you for your order! Our team is preparing your box with fresh,
+				delicious fruits and vegetables, and we'll deliver it straight to your
+				doorstep. We appreciate your business and look forward to providing
+				you with the best possible experience!
+			</p>
+		</div>
+	</div>
 
-  <div class="backdrop is-hidden" data-modal>
-    <div class="mw-thank-you">
-        <button class="mw-thank-you-btn" type="button" data-modal-close>
-            <svg class="mw-thank-you-btn-icon" width="14" height="14">
-                <use href="/img/icon.svg#close"></use>
-            </svg>
-        </button>
-        <div class="mw-thank-you-content">
-            <img
-            class="mw-thank-you-img "
-            srcset="
-                /img/mw-thank-you/raspberry_207.webp 207w,
-                /img/mw-thank-you/raspberry_278.webp 207w,
-                /img/mw-thank-you/raspberry_414.webp 207w,
-                /img/mw-thank-you/raspberry_556.webp 207w,           
-
-            "
-            sizes="(min-width: 1280px) 278px,  
-                    (min-width: 599px) 207px, 100vw"
-            src="/img/mw-thank-you/raspberry_207.webp"
-            alt="Raspberries"
-            width="278" 
-            height="239"      
-            >
-            <div class="mw-thank-you-message">
-                <h3 class="mw-thank-you-ttl">THANK YOU</h3>
-                <p class="mw-thank-you-text">
-                Thank you for your order! Our team is preparing your box with fresh, delicious fruits and vegetables, and we'll deliver it straight to your doorstep. We appreciate your business and look forward to providing you with the best possible experience!
-                </p>
-            </div>
-        </div>
-    
-    </div>
-  </div>
- -->
-	<!-- <div class="mw-your-order">
+</div>
+	<div class="mw-your-order modal" data-modal="1">
   <div class="heder">
     <h2 class="title">Your Order</h2>
-    <button class="modal-close-btn" type="button">
+    <button class="modal__cross js-modal-close" type="button">
       <svg class="modal-icon" width="24" height="24">
-        <use href="/img/icon.svg#close"></use>
+        <use href="/project-code-berries/assets/icon-fd58deca.svg#close"></use>
       </svg>
     </button>
   </div>
@@ -626,55 +610,37 @@
         <picture>
           <source
             media="(min-width: 1280px)"
-            srcset="
-              /img/Img-mw-your-order/desktop/strawberry_desk@1x.webp 1x,
-              /img/Img-mw-your-order/desktop/strawberry_desk@2x.webp 2x
-            "
+            srcset="/project-code-berries/assets/strawberry_desk@1x-e0f7e689.webp 1x, /project-code-berries/assets/strawberry_desk@2x-009f574e.webp 2x"
             type="image/webp"
           />
           <source
             media="(min-width: 1280px)"
-            srcset="
-              /img/Img-mw-your-order/desktop/strawberry_desk@1x.png 1x,
-              /img/Img-mw-your-order/desktop/strawberry_desk@2x.png 2x
-            "
+            srcset="/project-code-berries/assets/strawberry_desk@1x-962c5c7c.png 1x, /project-code-berries/assets/strawberry_desk@2x-6f40047d.png 2x"
             type="image/png"
           />
           <source
             media="(min-width: 768px)"
-            srcset="
-              /img/Img-mw-your-order/tablet/strawberry_tab@1x.webp 1x,
-              /img/Img-mw-your-order/tablet/strawberry_tab@2x.webp 2x
-            "
+            srcset="/project-code-berries/assets/strawberry_tab@1x-f4f2e163.webp 1x, /project-code-berries/assets/strawberry_tab@2x-3bcb4992.webp 2x"
             type="image/webp"
           />
           <source
             media="(min-width: 768px)"
-            srcset="
-              /img/Img-mw-your-order/tablet/strawberry_tab@1x.png 1x,
-              /img/Img-mw-your-order/tablet/strawberry_tab@2x.png 2x
-            "
+            srcset="/project-code-berries/assets/strawberry_tab@1x-b2a2791f.png 1x, /project-code-berries/assets/strawberry_tab@2x-5b1eac02.png 2x"
             type="image/png"
           />
           <source
             media="(max-width: 767px)"
-            srcset="
-              /img/Img-mw-your-order/mobile/strawberry_mob@1x.webp 1x,
-              /img/Img-mw-your-order/mobile/strawberry_mob@2x.webp 2x
-            "
+            srcset="/project-code-berries/assets/strawberry_mob@1x-13190e41.webp 1x, /project-code-berries/assets/strawberry_mob@2x-e73e62cb.webp 2x"
             type="image/webp"
           />
           <source
             media="(max-width: 767px)"
-            srcset="
-              /img/Img-mw-your-order/mobile/strawberry_mob@1x.png 1x,
-              /img/Img-mw-your-order/mobile/strawberry_mob@2x.png 2x
-            "
+            srcset="/project-code-berries/assets/strawberry_mob@1x-42105432.png 1x, /project-code-berries/assets/strawberry_mob@2x-9d0bd8f6.png 2x"
             type="image/png"
           />
           <img
             class="image-card strawberry-img"
-            src="/img/Img-mw-your-order/desktop/strawberry_desk@1x.png"
+            src="/project-code-berries/assets/strawberry_desk@1x-962c5c7c.png"
             alt="strawberry"
             width="173"
             height="196"
@@ -697,55 +663,37 @@
         <picture>
           <source
             media="(min-width: 1280px)"
-            srcset="
-              /img/Img-mw-your-order/desktop/apple_desk@1x.webp 1x,
-              /img/Img-mw-your-order/desktop/apple_desk@2x.webp 2x
-            "
+            srcset="/project-code-berries/assets/apple_desk@1x-c5dedcac.webp 1x, /project-code-berries/assets/apple_desk@2x-ce7344e0.webp 2x"
             type="image/webp"
           />
           <source
             media="(min-width: 1280px)"
-            srcset="
-              /img/Img-mw-your-order/desktop/apple_desk@1x.png 1x,
-              /img/Img-mw-your-order/desktop/apple_desk@2x.png 2x
-            "
+            srcset="/project-code-berries/assets/apple_desk@1x-69cbd681.png 1x, /project-code-berries/assets/apple_desk@2x-995d3c97.png 2x"
             type="image/png"
           />
           <source
             media="(min-width: 768px)"
-            srcset="
-              /img/Img-mw-your-order/tablet/apple_tab@1x.webp 1x,
-              /img/Img-mw-your-order/tablet/apple_tab@2x.webp 2x
-            "
+            srcset="/project-code-berries/assets/apple_tab@1x-33f6b160.webp 1x, /project-code-berries/assets/apple_tab@2x-c500718e.webp 2x"
             type="image/webp"
           />
           <source
             media="(min-width: 768px)"
-            srcset="
-              /img/Img-mw-your-order/tablet/apple_tab@1x.png 1x,
-              /img/Img-mw-your-order/tablet/apple_tab@2x.png 2x
-            "
+            srcset="/project-code-berries/assets/apple_tab@1x-36490095.png 1x, /project-code-berries/assets/apple_tab@2x-67f5f5ce.png 2x"
             type="image/png"
           />
           <source
             media="(max-width: 767px)"
-            srcset="
-              /img/Img-mw-your-order/mobile/apple_mob@1x.webp 1x,
-              /img/Img-mw-your-order/mobile/apple_mob@2x.webp 2x
-            "
+            srcset="/project-code-berries/assets/apple_mob@1x-7c4027a9.webp 1x, /project-code-berries/assets/apple_mob@2x-9127af1a.webp 2x"
             type="image/webp"
           />
           <source
             media="(max-width: 767px)"
-            srcset="
-              /img/Img-mw-your-order/mobile/apple_mob@1x.png 1x,
-              /img/Img-mw-your-order/mobile/apple_mob@2x.png 2x
-            "
+            srcset="/project-code-berries/assets/apple_mob@1x-d74cfa6e.png 1x, /project-code-berries/assets/apple_mob@2x-78cb68d9.png 2x"
             type="image/png"
           />
           <img
             class="image-card apple-img"
-            src="/img/Img-mw-your-order/desktop/apple_desk@1x.png"
+            src="/project-code-berries/assets/apple_desk@1x-69cbd681.png"
             alt="apple"
             width="229"
             height="196"
@@ -757,7 +705,7 @@
     <li class="third-card-list list">
       <label class="lable-card" for="Fruits_cadr"></label>
       <input
-        class="list-card fruits-card"
+        class="list-card"
         type="checkbox"
         name="Fruits_cadr"
         id="Fruits_cadr"
@@ -768,55 +716,37 @@
         <picture>
           <source
             media="(min-width: 1280px)"
-            srcset="
-              /img/Img-mw-your-order/desktop/fruits_desk@1x.webp 1x,
-              /img/Img-mw-your-order/desktop/fruits_desk@2x.webp 2x
-            "
+            srcset="/project-code-berries/assets/fruits_desk@1x-6b83be7e.webp 1x, /project-code-berries/assets/fruits_desk@2x-f745eea9.webp 2x"
             type="image/webp"
           />
           <source
             media="(min-width: 1280px)"
-            srcset="
-              /img/Img-mw-your-order/desktop/fruits_desk@1x.png 1x,
-              /img/Img-mw-your-order/desktop/fruits_desk@2x.png 2x
-            "
+            srcset="/project-code-berries/assets/fruits_desk@1x-505476ae.png 1x, /project-code-berries/assets/fruits_desk@2x-4e73102e.png 2x"
             type="image/png"
           />
           <source
             media="(min-width: 768px)"
-            srcset="
-              /img/Img-mw-your-order/tablet/fruits_tab@1x.webp 1x,
-              /img/Img-mw-your-order/tablet/fruits_tab@2x.webp 2x
-            "
+            srcset="/project-code-berries/assets/fruits_tab@1x-e3beffde.webp 1x, /project-code-berries/assets/fruits_tab@2x-7de56ed6.webp 2x"
             type="image/webp"
           />
           <source
             media="(min-width: 768px)"
-            srcset="
-              /img/Img-mw-your-order/tablet/fruits_tab@1x.png 1x,
-              /img/Img-mw-your-order/tablet/fruits_tab@2x.png 2x
-            "
+            srcset="/project-code-berries/assets/fruits_tab@1x-326a1a08.png 1x, /project-code-berries/assets/fruits_tab@2x-abf3b22c.png 2x"
             type="image/png"
           />
           <source
             media="(max-width: 767px)"
-            srcset="
-              /img/Img-mw-your-order/mobile/fruits_mob@1x.webp 1x,
-              /img/Img-mw-your-order/mobile/fruits_mob@2x.webp 2x
-            "
+            srcset="/project-code-berries/assets/fruits_mob@1x-b80fc871.webp 1x, /project-code-berries/assets/fruits_mob@2x-96e5383d.webp 2x"
             type="image/webp"
           />
           <source
             media="(max-width: 767px)"
-            srcset="
-              /img/Img-mw-your-order/mobile/fruits_mob@1x.png 1x,
-              /img/Img-mw-your-order/mobile/fruits_mob@2x.png 2x
-            "
+            srcset="/project-code-berries/assets/fruits_mob@1x-3e54bdcc.png 1x, /project-code-berries/assets/fruits_mob@2x-1ba57d27.png 2x"
             type="image/png"
           />
           <img
             class="image-card fruits-img"
-            src="/img/Img-mw-your-order/desktop/fruits_desk@1x.png"
+            src="/project-code-berries/assets/fruits_desk@1x-505476ae.png"
             alt="fruits"
             width="229"
             height="196"
@@ -863,7 +793,8 @@
     </form>
   </div>
 </div>
- -->
+
+	<div class="overlay js-overlay-modal"></div>
 	
 	<script
 		src="https://unpkg.com/body-scroll-lock@3.1.5/lib/bodyScrollLock.min.js"></script>
