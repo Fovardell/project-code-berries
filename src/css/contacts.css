@@ -1,18 +1,5 @@
 .contacts-sections {
 	background-color: var(--brand-color);
-	padding-bottom: 80px;
-}
-
-@media only screen and (min-width: 768px) {
-	.contacts-sections {
-		padding-bottom: 144px;
-	}
-}
-
-@media only screen and (min-width: 1200px) {
-	.contacts-sections {
-		padding-bottom: 150px;
-	}
 }
 
 .contacts-wrapper {
@@ -45,7 +32,7 @@
 		max-width: none;
 		width: 648px;
 		font-size: 54px;
-		left: 28px;
+		left: calc((100% - 648px) / 2);
 	}
 }
 
@@ -53,7 +40,7 @@
 	.contacts-title {
 		width: 740px;
 		font-size: 64px;
-		left: 238px;
+		left: calc((100% - 740px) / 2);
 	}
 }
 
@@ -137,7 +124,7 @@
 	outline: transparent;
 	border: none;
 	color: var(--color-text);
-	padding: 15px 24px;
+	padding: 14px 24px;
 
 	border: 1px solid rgba(255, 255, 255, 0.3);
 	border-radius: 100px;
@@ -162,8 +149,8 @@
 
 .contacts-btn {
 	position: absolute;
-	top: 1px;
-	right: 1px;
+	top: 0;
+	right: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
