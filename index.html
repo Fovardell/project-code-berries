@@ -13,8 +13,8 @@
 	<link rel="stylesheet"
 		href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
 	
-  <script type="module" crossorigin src="/project-code-berries/assets/index-5c2ffc57.js"></script>
-  <link rel="stylesheet" href="/project-code-berries/assets/index-09dc96f5.css">
+  <script type="module" crossorigin src="/project-code-berries/assets/index-ccbfb793.js"></script>
+  <link rel="stylesheet" href="/project-code-berries/assets/index-471b9597.css">
 </head>
 
 <body>
@@ -78,7 +78,7 @@
 	</div>
 	<!-- =======================================================-_(/Mobile menu)_-====================================================== -->
 </header>
-	<section class="hero-section">
+	<!-- <section class="hero-section">
   <div class="hero-container container">
     <h1 class="hero-title">
       FRESH HARVEST BOX IS YOUR ONE-STOP PLACE FOR A DELICIOUS FRUIT BASKET
@@ -86,7 +86,14 @@
     <div class="hero-img-r">
       <img
         class="hero-img-strawberry"
-        srcset="/project-code-berries/assets/strawberry_mob@1x-c44ca5b6.webp 1x, /project-code-berries/assets/strawberry_mob@2x-fc714cc2.webp 2x, /project-code-berries/assets/strawberry_tab@1x-2ee08402.webp 1x, /project-code-berries/assets/strawberry_tab@2x-b8fbac30.webp 2x, /project-code-berries/assets/strawberry_desk@1x-4749236a.webp 1x, /project-code-berries/assets/strawberry_desk@2x-7c64ad58.webp 2x"
+        srcset="
+          /img/hero/strawberry_mob@1x.webp  1x,
+          /img/hero/strawberry_mob@2x.webp  2x,
+          /img/hero/strawberry_tab@1x.webp  1x,
+          /img/hero/strawberry_tab@2x.webp  2x,
+          /img/hero/strawberry_desk@1x.webp 1x,
+          /img/hero/strawberry_desk@2x.webp 2x
+        "
         src="/img/hero/strawberry_desk@1x.jpg"
         alt="strawberry"
       />
@@ -94,13 +101,20 @@
     <div class="hero-img-l">
       <img
         class="hero-img-banana"
-        srcset="/project-code-berries/assets/banana_mob@1x-62aad0ee.webp 1x, /project-code-berries/assets/banana_mob@2x-f8c013b2.webp 2x, /project-code-berries/assets/banana_tab@1x-5cc81b7c.webp 1x, /project-code-berries/assets/banana_tab@2x-23f0e483.webp 2x, /project-code-berries/assets/banana_desk@1x-1abbf5cf.webp 1x, /project-code-berries/assets/banana_desk@2x-019cb631.webp 2x"
-        src="/project-code-berries/assets/banana_desk@1x-8d517425.png"
+        srcset="
+          /img/hero/banana_mob@1x.webp  1x,
+          /img/hero/banana_mob@2x.webp  2x,
+          /img/hero/banana_tab@1x.webp  1x,
+          /img/hero/banana_tab@2x.webp  2x,
+          /img/hero/banana_desk@1x.webp 1x,
+          /img/hero/banana_desk@2x.webp 2x
+        "
+        src="/img/hero/banana_desk@1x.png"
         alt="banana"
       />
     </div>
     <div class="gradiend-border">
-      <a class="btn-hero" href="#Fruit">SHOP NOW</a>
+      <a class="btn-hero" href="#fruits">SHOP NOW</a>
       <picture>
         <source class="img-card"
           media="(min-width: 768px) 452px"
@@ -134,7 +148,7 @@
           "
           type="image/jpg"
         />
-         <img
+        <img
     class="img-card"
     src="../img/hero/young-energetic-woman_tabd@1x.jpg"
     alt="young-energetic-woman"
@@ -153,8 +167,11 @@
       <p class="hero-second">Fruit</p>
       <img
         class="img-water"
-        srcset="/project-code-berries/assets/watermelon_mtd@1x-01506e9e.webp 1x, /project-code-berries/assets/watermelon_mtd@2x-73ac4cec.webp 2x"
-        src="/project-code-berries/assets/watermelon_mtd@1x-2fee4498.png"
+        srcset="
+          /img/hero/watermelon_mtd@1x.webp 1x,
+          /img/hero/watermelon_mtd@2x.webp 2x
+        "
+        src="/img/hero/watermelon_mtd@1x.png"
         alt="watermelon"
         width="239"
         height="172"
@@ -182,8 +199,11 @@
       <p class="hero-second">Fruit</p>
       <img
         class="img-basketstr"
-        srcset="/project-code-berries/assets/basketstr_mtd@1x-d6a54ff1.webp 1x, /project-code-berries/assets/basketstr_mtd@2x-7ef447dd.webp 2x"
-        src="/project-code-berries/assets/basketstr_mtd@1x-77ab8771.png"
+        srcset="
+          /img/hero/basketstr_mtd@1x.webp 1x,
+          /img/hero/basketstr_mtd@2x.webp 2x
+        "
+        src="/img/hero/basketstr_mtd@1x.png"
         alt="strawberry basket"
         width="239"
         height="187"
@@ -194,7 +214,7 @@
       </p>
     </div>
   </div>
-</section>
+</section> -->
 	<section class="how-it-works-section section" id="how-it-works">
   <div class="how-it-works-container container">
     <div class="order-fruit-container"> 
@@ -208,33 +228,29 @@
         gift, our fruit baskets are the perfect choice.
       </p>
     </div>
-    <div class="steps-order-container">
       <ul class="steps-order-list">
-        <li class="steps-order-item">
-          <div class="steps-order-color">
+        <li class="steps-order-item steps-order-color">
+
             <p class="first-step steps">First Step</p>
             <p class="step-text">
               Just choose the fruit you want to order by clicking on the
               checkboxes next to it.
             </p>
-          </div>
+
         </li>
-        <li class="steps-order-item">
-          <div class="steps-order-color">
+        <li class="steps-order-item steps-order-color">
+
             <p class="second-step steps">Second Step</p>
             <p class="step-text">Click on the basket and flil out the form.</p>
-          </div>
+
         </li>
-        <li class="steps-order-item">
-          <div class="steps-order-color">
+        <li class="steps-order-item steps-order-color">
             <p class="third-step steps">Third Step</p>
             <p class="step-text">
               Sit back and relax! Your fresh fruit basket wlil be delivered.
             </p>
-          </div>
         </li>
       </ul>
-    </div>
     <div class="gif-box container">
       <img
         class="gif"
@@ -502,9 +518,9 @@
         </a>
       </div>
       <ul class="footer-menu">
-        <li class="footer-menu-item"><a href="#how-it-works"></a>How It Works</li>
-        <li class="footer-menu-item"><a href="#fruits"></a>Fruits</li>
-        <li class="footer-menu-item"><a href="#contacts"></a>Contacts</li>
+        <li class="footer-menu-item"><a href="#how-it-works">How It Works</a></li>
+        <li class="footer-menu-item"><a href="#fruits">Fruits</a></li>
+        <li class="footer-menu-item"><a href="#contacts">Contacts</a></li>
       </ul>
     </div>  
     <div class="footer-media-address">
@@ -590,7 +606,6 @@
 			</p>
 		</div>
 	</div>
-
 </div>
 	<div class="mw-your-order modal" data-modal="1">
   <div class="heder">
