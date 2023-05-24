@@ -14,11 +14,463 @@
 		href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
 	
   <script type="module" crossorigin src="/project-code-berries/assets/index-ccbfb793.js"></script>
-  <link rel="stylesheet" href="/project-code-berries/assets/index-066bc159.css">
+  <link rel="stylesheet" href="/project-code-berries/assets/index-abf578b4.css">
 </head>
 
 <body>
-	
+	<header class="header">
+	<div class="container">
+		<nav class="navigation">
+			<ul class="navigation-list">
+				<li class="header-items"><a href="#how-it-works" class="navigation-items-link">How
+						It Works</a></li>
+				<li class="header-items"><a href="#fruits"
+						class="navigation-items-link">Fruits</a></li>
+				<li class="header-items"><a href="#contacts"
+						class="navigation-items-link">Contacts</a></li>
+			</ul>
+			<a href="index.html" class="logo">
+				<svg class="logo-svg" width="16" height="16">
+					<use href="/project-code-berries/assets/icon-fd58deca.svg#logo"></use>
+				</svg>
+				<span class="logo-text">fresh harvest box</span>
+			</a>
+			<a href="#fruits" class="navigation-basket">
+				<svg class="basket-svg" width="28" height="28">
+					<use href="/project-code-berries/assets/icon-fd58deca.svg#basket"></use>
+				</svg>
+			</a>
+			<button class="burger button-reset js-open-menu" aria-expanded="false"
+				aria-controls="mobile-menu">
+				<div class="burger-line burger-line-first"></div>
+				<div class="burger-line burger-line-second"></div>
+				<div class="burger-line burger-line-third"></div>
+				<div class="burger-line burger-line-fourth"></div>
+			</button>
+		</nav>
+	</div>
+	<!-- =======================================================-_(Mobile menu)_-======================================================= -->
+	<div class="menu-container js-menu-container " id="mobile-menu">
+		<ul class="navigation-mobile-list">
+			<li class="navigation-items">
+				<a href="#how-it-works" class="menu-box-link">
+					How It Works
+				</a>
+			</li>
+			<li class="navigation-items">
+				<a href="#fruits" class="menu-box-link">
+					Fruits
+				</a>
+			</li>
+			<li class="navigation-items">
+				<a href="#contacts" class="menu-box-link">
+					Contacts
+				</a>
+			</li>
+			<li class="navigation-items">
+				<a href="#fruits" class="menu-box-link">
+					<svg class="basket" width="28" height="28">
+						<use href="/project-code-berries/assets/icon-fd58deca.svg#basket"></use>
+					</svg>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<!-- =======================================================-_(/Mobile menu)_-====================================================== -->
+</header>
+	<section class="hero-section">
+  <div class="hero-container container">
+    <h1 class="hero-title">
+      FRESH HARVEST BOX IS YOUR ONE-STOP PLACE FOR A DELICIOUS FRUIT BASKET
+    </h1>
+    <div class="hero-img-r">
+      <img
+        class="hero-img-strawberry"
+        srcset="/project-code-berries/assets/strawberry_mob@1x-c44ca5b6.webp 1x, /project-code-berries/assets/strawberry_mob@2x-fc714cc2.webp 2x, /project-code-berries/assets/strawberry_tab@1x-2ee08402.webp 1x, /project-code-berries/assets/strawberry_tab@2x-b8fbac30.webp 2x, /project-code-berries/assets/strawberry_desk@1x-4749236a.webp 1x, /project-code-berries/assets/strawberry_desk@2x-7c64ad58.webp 2x"
+        src="/img/hero/strawberry_desk@1x.jpg"
+        alt="strawberry"
+      />
+    </div>
+    <div class="hero-img-l">
+      <img
+        class="hero-img-banana"
+        srcset="/project-code-berries/assets/banana_mob@1x-62aad0ee.webp 1x, /project-code-berries/assets/banana_mob@2x-f8c013b2.webp 2x, /project-code-berries/assets/banana_tab@1x-5cc81b7c.webp 1x, /project-code-berries/assets/banana_tab@2x-23f0e483.webp 2x, /project-code-berries/assets/banana_desk@1x-1abbf5cf.webp 1x, /project-code-berries/assets/banana_desk@2x-019cb631.webp 2x"
+        src="/project-code-berries/assets/banana_desk@1x-8d517425.png"
+        alt="banana"
+      />
+    </div>
+    <div class="gradiend-border">
+      <a class="btn-hero" href="#fruits">SHOP NOW</a>
+      <picture>
+        <source class="img-card"
+          media="(min-width: 768px) 452px"
+          srcset="
+            ../img/hero/young-energetic-woman_tabd@1x.webp 1x,
+            ../img/hero/young-energetic-woman_tabd@2x.webp 2x
+          "
+          type="image/webp"
+        />
+        <source class="img-card"
+          media="(min-width: 768px)"
+          srcset="
+            ../img/hero/young-energetic-woman_tabd@1x.jpg 1x,
+            ../img/hero/young-energetic-woman_tabd@2x.jpg 2x
+          "
+          type="image/jpg"
+        />
+        <source class="img-card"
+          media="(max-width: 767px)"
+          srcset="
+            ../img/hero/young-energetic-woman_mob@1x.webp 1x,
+            ../img/hero/young-energetic-woman_mob@2x.webp 2x
+          "
+          type="image/webp"
+        />
+        <source class="img-card"
+          media="(max-width: 767px)"
+          srcset="
+            ../img/hero/young-energetic-woman_mob@1x.jpg 1x,
+            ../img/hero/young-energetic-woman_mob@2x.jpg 2x
+          "
+          type="image/jpg"
+        />
+        <img
+    class="img-card"
+    src="../img/hero/young-energetic-woman_tabd@1x.jpg"
+    alt="young-energetic-woman"
+    width="452"
+    height="702"
+    loading="lazy"
+  />
+      </picture>
+    </div>
+    <p class="hero-desc">
+      Our expertly curated fruit baskets are made with the freshest, highest
+      quality fruits available. Whether you are looking for a healthy snack or a
+      gift for a loved one, Fresh Harvest Box has got you covered.
+    </p>
+    <div class="watermelon">
+      <p class="hero-second">Fruit</p>
+      <img
+        class="img-water"
+        srcset="/project-code-berries/assets/watermelon_mtd@1x-01506e9e.webp 1x, /project-code-berries/assets/watermelon_mtd@2x-73ac4cec.webp 2x"
+        src="/project-code-berries/assets/watermelon_mtd@1x-2fee4498.png"
+        alt="watermelon"
+        width="239"
+        height="172"
+      />
+      <p class="hero-text">
+        Refreshing and juicy, watermelon is the perfect summer treat and a great
+        source of hydration
+      </p>
+    </div>
+    <ul class="hero-element-list">
+      <li class="hero-element">
+        <h3 class="hero-title-three">&#35;organic</h3>
+      </li>
+      <li class="hero-element">
+        <h3 class="hero-title-three">&#35;products</h3>
+      </li>
+      <li class="hero-element">
+        <h3 class="hero-title-three">&#35;basket</h3>
+      </li>
+      <li class="hero-element">
+        <h3 class="hero-title-three">&#35;fruits</h3>
+      </li>
+    </ul>
+    <div class="basketstr">
+      <p class="hero-second">Fruit</p>
+      <img
+        class="img-basketstr"
+        srcset="/project-code-berries/assets/basketstr_mtd@1x-d6a54ff1.webp 1x, /project-code-berries/assets/basketstr_mtd@2x-7ef447dd.webp 2x"
+        src="/project-code-berries/assets/basketstr_mtd@1x-77ab8771.png"
+        alt="strawberry basket"
+        width="239"
+        height="187"
+      />
+      <p class="hero-text">
+        Sweet and juicy, strawberries are packed with vitamin C and
+        antioxidants, making them a delicious and healthy snack
+      </p>
+    </div>
+  </div>
+</section>
+	<section class="how-it-works-section section" id="how-it-works">
+  <div class="how-it-works-container container">
+    <div class="order-fruit-container"> 
+      <h2 class="order-fruit-title">
+        To order your fruit basket, simply follow these easy steps
+      </h2>
+      <p class="order-fruit-text">
+        Our baskets are assembled with care and delivered straight to your
+        doorstep, so you can enjoy the taste of fresh fruit without ever leaving
+        your home. Whether you're looking for a healthy snack or a thoughtful
+        gift, our fruit baskets are the perfect choice.
+      </p>
+    </div>
+      <ul class="steps-order-list">
+        <li class="steps-order-item steps-order-color">
+
+            <p class="first-step steps">First Step</p>
+            <p class="step-text">
+              Just choose the fruit you want to order by clicking on the
+              checkboxes next to it.
+            </p>
+
+        </li>
+        <li class="steps-order-item steps-order-color">
+
+            <p class="second-step steps">Second Step</p>
+            <p class="step-text">Click on the basket and flil out the form.</p>
+
+        </li>
+        <li class="steps-order-item steps-order-color">
+            <p class="third-step steps">Third Step</p>
+            <p class="step-text">
+              Sit back and relax! Your fresh fruit basket wlil be delivered.
+            </p>
+        </li>
+      </ul>
+    <div class="gif-box container">
+      <img
+        class="gif"
+        srcset="/project-code-berries/assets/freshbox_mob-97e305d5.gif 335w, /project-code-berries/assets/freshbox_tab-db3ffa55.gif 704w, /project-code-berries/assets/freshbox_desc-94d042ea.gif 860w"
+        sizes="(min-width: 1280px) 860px,(min-width: 768px) 704px, (min-width: 428px) 335px, 100vw"
+        src="/images/how-it-works/fuits_gif_desc.gif"
+        alt="Fruits"
+        width="860"
+        height="476"
+        loading="lazy"
+      />
+    </div>
+  </div>
+</section>
+
+	<section class="fruits" id="fruits">
+  <div class="container">
+    <h2 class="fruits-begin">organic fruits</h2>
+    <p class="fruits-about">
+      Our organic fruits are hand-picked from local farms and delivered straight
+      to your doorstep, ensuring that you get the freshest and most nutritious
+      produce possible. We offer a wide selection of organic fruits grown
+      without the use of harmful pesticides or chemicals.
+    </p>
+    <ul class="fruits-list">
+      <li class="fruits-card">
+        <div class="fruits-wrap">
+          <h3 class="fruits-name">Strawberry</h3>
+          <p class="fruits-text">Plant</p>
+        </div>
+        <img
+          srcset="/project-code-berries/assets/str@1x-6ddb3c5a.webp 1x, /project-code-berries/assets/str@2x-0c75f516.webp 2x"
+          src="/project-code-berries/assets/str@1x-6ddb3c5a.webp"
+          alt="Strawberry"
+          width="295"
+          height="275"
+          class="fruits-img"
+        />
+        <p class="fruits-cost text-cost">100 UAH / kg</p>
+      </li>
+
+      <li class="fruits-card banana">
+        <div class="fruits-wrap">
+          <h3 class="fruits-name">Banana</h3>
+          <p class="fruits-text">Plant</p>
+        </div>
+        <img
+          srcset="/project-code-berries/assets/ban@1x-28271943.webp 1x, /project-code-berries/assets/ban@2x-eb8bb0cc.webp 2x"
+          src="/project-code-berries/assets/ban@1x-28271943.webp"
+          alt="Banana"
+          width="295"
+          height="266"
+          class="fruits-img"
+        />
+        <p class="fruits-cost text-cost">80 UAH / kg</p>
+      </li>
+
+      <li class="fruits-card Watermelon">
+        <div class="fruits-wrap">
+          <h3 class="fruits-name">Watermelon</h3>
+          <p class="fruits-text">Plant</p>
+        </div>
+        <img
+          srcset="/project-code-berries/assets/wat@1x-f062fa43.webp 1x, /project-code-berries/assets/wat@2x-c0d97aa8.webp 2x"
+          src="/project-code-berries/assets/wat@1x-f062fa43.webp"
+          alt="Watermelon"
+          width="295"
+          height="276"
+          class="fruits-img"
+        />
+        <p class="fruits-cost text-cost">40 UAH / kg</p>
+      </li>
+      <li class="fruits-card Lime">
+        <div class="fruits-wrap">
+          <h3 class="fruits-name">Lime</h3>
+          <p class="fruits-text">Plant</p>
+        </div>
+        <img
+          srcset="/project-code-berries/assets/lime@1x-bcdd3044.webp 1x, /project-code-berries/assets/lime@2x-e41f1ead.webp 2x"
+          src="/project-code-berries/assets/lime@1x-bcdd3044.webp"
+          alt="Lime"
+          width="295"
+          height="276"
+          class="fruits-img"
+        />
+        <p class="fruits-cost text-cost">60 UAH / kg</p>
+      </li>
+
+      <li class="fruits-card Apple">
+        <div class="fruits-wrap">
+          <h3 class="fruits-name">Apple</h3>
+          <p class="fruits-text">Plant</p>
+        </div>
+        <img
+          srcset="/project-code-berries/assets/apple@1x-05ccc139.webp 1x, /project-code-berries/assets/apple@2x-2a1e635b.webp 2x"
+          src="/project-code-berries/assets/apple@1x-05ccc139.webp"
+          alt="Apple"
+          width="295"
+          height="276"
+          class="fruits-img"
+        />
+        <p class="fruits-cost text-cost">50 UAH / kg</p>
+      </li>
+      <li class="fruits-card Peach">
+        <div class="fruits-wrap">
+          <h3 class="fruits-name">Peach</h3>
+          <p class="fruits-text">Plant</p>
+        </div>
+        <img
+          srcset="/project-code-berries/assets/peach@1x-0a4646aa.webp 1x, /project-code-berries/assets/peach@2x-6a6f2dee.webp 2x"
+          src="/project-code-berries/assets/peach@1x-0a4646aa.webp"
+          alt="Peach"
+          width="295"
+          height="276"
+          class="fruits-img"
+        />
+        <p class="fruits-cost text-cost">80 UAH / kg</p>
+      </li>
+      <li class="fruits-card Plums">
+        <div class="fruits-wrap">
+          <h3 class="fruits-name">Plums</h3>
+          <p class="fruits-text">Plant</p>
+        </div>
+        <img
+          srcset="/project-code-berries/assets/plum@1x-465b34d5.webp 1x, /project-code-berries/assets/plum@2x-c17a2a63.webp 2x"
+          src="/project-code-berries/assets/plum@1x-465b34d5.webp"
+          alt="Plums"
+          width="295"
+          height="276"
+          class="fruits-img"
+        />
+        <p class="fruits-cost text-cost">40 UAH / kg</p>
+      </li>
+      <li class="fruits-card Orange">
+        <div class="fruits-wrap">
+          <h3 class="fruits-name">Orange</h3>
+          <p class="fruits-text">Plant</p>
+        </div>
+        <img
+          srcset="/project-code-berries/assets/orange@1x-00bd057a.webp 1x, /project-code-berries/assets/orange@2x-49fae8b4.webp 2x"
+          src="/project-code-berries/assets/orange@1x-00bd057a.webp"
+          alt="Orange"
+          width="295"
+          height="276"
+          class="fruits-img"
+        />
+        <p class="fruits-cost text-cost">60 UAH / kg</p>
+      </li>
+      <li class="fruits-card Kiwi">
+        <div class="fruits-wrap">
+          <h3 class="fruits-name">Kiwi</h3>
+          <p class="fruits-text">Plant</p>
+        </div>
+        <img
+          srcset="/project-code-berries/assets/kiwi@1x-ba4c4e89.webp 1x, /project-code-berries/assets/kiwi@2x-425fb70c.webp 2x"
+          src="/project-code-berries/assets/kiwi@1x-ba4c4e89.webp"
+          alt="Kiwi"
+          width="295"
+          height="276"
+          class="fruits-img"
+        />
+        <p class="fruits-cost text-cost">90 UAH / kg</p>
+      </li>
+    </ul>
+    <div class="button-fruit">
+      <button type="button" class="modal-but js-open-modal" data-modal="1">
+        <svg class="arrow-svg" width="14" height="14">
+          <use href="/project-code-berries/assets/icon-fd58deca.svg#arrow"></use>
+        </svg>
+        <p class="text-but">order</p>
+      </button>
+    </div>
+  </div>
+</section>
+
+	<section class="contacts-sections" id="contacts">
+	<div class="contacts-container container">
+		<div class="contacts-wrapper">
+			<h2 class="contacts-title">Fresh Harvest Box has got you covered</h2>
+			<ul class="contacts-img-list">
+				<li class="contacts-img-item">
+					<picture>
+						<source media="(min-width: 1280px)"
+							srcset="/project-code-berries/assets/melon_desk@1x-e56f0ce2.webp 1x, /project-code-berries/assets/melon_desk@2x-14dea194.webp 2x"
+							type="image/webp" />
+						<source media="(min-width: 1280px)"
+							srcset="/project-code-berries/assets/melon_desk@1x-0d4eead3.jpg 1x, /project-code-berries/assets/melon_desk@2x-27cc1647.jpg 2x"
+							type="image/jpg" />
+						<source media="(min-width: 768px)"
+							srcset="/project-code-berries/assets/melon_tablet@1x-75f11c96.webp 1x, /project-code-berries/assets/melon_tablet@2x-b5b182cd.webp 2x"
+							type="image/webp" />
+						<source media="(min-width: 768px)"
+							srcset="/project-code-berries/assets/melon_tablet@1x-f2715581.jpg 1x, /project-code-berries/assets/melon_tablet@2x-ffc93f09.jpg 2x"
+							type="image/jpg" />
+						<source media="(max-width: 767px)"
+							srcset="/project-code-berries/assets/melon_mobile@1x-fb028a8f.webp 1x, /project-code-berries/assets/melon_mobile@2x-fecd091d.webp 2x"
+							type="image/webp" />
+						<source media="(max-width: 767px)"
+							srcset="/project-code-berries/assets/melon_mobile@1x-6aabebcb.jpg 1x, /project-code-berries/assets/melon_mobile@2x-f9ab846e.jpg 2x"
+							type="image/jpg" />
+						<img class="card-img" src="/project-code-berries/assets/melon_desk@1x-0d4eead3.jpg"
+							alt="melon" width="792" height="502" loading="lazy" />
+					</picture>
+				</li>
+				<li class="contacts-img-item">
+					<picture>
+						<source media="(min-width: 1280px)"
+							srcset="/project-code-berries/assets/blueberry_desk@1x-5fecbcaf.webp 1x, /project-code-berries/assets/blueberry_desk@2x-9da9bc1e.webp 2x"
+							type="image/webp" />
+						<source media="(min-width: 1280px)"
+							srcset="/project-code-berries/assets/blueberry_desk@1x-ec9f88c3.jpg 1x, /project-code-berries/assets/blueberry_desk@2x-2f21f927.jpg 2x"
+							type="image/jpg" />
+						<source media="(min-width: 768px)"
+							srcset="/project-code-berries/assets/blueberry_tablet@1x-a6def861.webp 1x, /project-code-berries/assets/blueberry_tablet@2x-e94b7931.webp 2x"
+							type="image/webp" />
+						<source media="(min-width: 768px)"
+							srcset="/project-code-berries/assets/blueberry_tablet@1x-89ddae19.jpg 1x, /project-code-berries/assets/blueberry_tablet@2x-5bb5254d.jpg 2x"
+							type="image/jpg" />
+						<img class="contacts-img2" src="/project-code-berries/assets/blueberry_desk@1x-ec9f88c3.jpg"
+							alt="blueberry" width="400" height="502" loading="lazy" />
+					</picture>
+				</li>
+			</ul>
+		</div>
+		<div class="contacts-description">
+			<p class="contacts-text">Our boxes are packed with delicious, nutritious
+				fruits and vegetables, perfect for anyone looking to eat healthier or
+				support local farmers. Order your box today and start enjoying the best
+				that nature has to offer!</p>
+			<form class="contacts-form" name="contacts-form">
+				<label class="contacts-field">
+					<input class="contacts-input" type="email" name="email"
+						placeholder="Enter email..." required>
+					<button class="contacts-btn js-open-modal" data-modal="2"
+						type="button">Send</button>
+				</label>
+			</form>
+		</div>
+	</div>
+</section>
 	<footer class="footer">
   <div class="footer-container container">
     <div class="footer-content-left">
